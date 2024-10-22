@@ -1,0 +1,19 @@
+2. **API Endpoints**
+    - `POST /transactions`: Adds a new transaction (income or expense).
+         http://localhost:3000/transactions
+
+    - `GET /transactions`: Retrieves all transactions.
+         http://localhost:3000/transactions
+
+    - `GET /transactions/:id`: Retrieves a transaction by ID.
+        http://localhost:3000/transactions/1
+    - `PUT /transactions/:id`: Updates a transaction by ID.
+        http://localhost:3000/transactions/1
+
+    - `DELETE /transactions/:id`: Deletes a transaction by ID.
+        http://localhost:3000/transactions/2
+
+    - `GET /summary`: Retrieves a summary of transactions
+         http://localhost:3000/summary 
+
+
